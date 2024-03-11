@@ -1,29 +1,20 @@
-[16:03] Budyala, Akhila (Cognizant)
+
 package factory;
  
 import java.io.FileReader;
-
 import java.io.IOException;
-
 import java.net.URL;
-
 import java.time.Duration;
-
 import java.util.Properties;
- 
+
 import org.openqa.selenium.WebDriver;
-
 import org.openqa.selenium.chrome.ChromeDriver;
-
 import org.openqa.selenium.edge.EdgeDriver;
-
 import org.openqa.selenium.firefox.FirefoxDriver;
-
 import org.openqa.selenium.remote.DesiredCapabilities;
-
 import org.openqa.selenium.remote.RemoteWebDriver;
  
-public class BaseClass {
+public class Baseclass {
  
 	static WebDriver driver;
 
